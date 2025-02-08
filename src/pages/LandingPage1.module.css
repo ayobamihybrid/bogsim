@@ -1,0 +1,345 @@
+.frameChild2 {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.iconParktelegram {
+  height: 24.4px;
+  width: 24.4px;
+  position: relative;
+  z-index: 1;
+}
+
+.rectangleParent,
+.rectangleGroup {
+  position: relative;
+  width: 36.7px;
+  height: 36.7px;
+  background-color: rgba(28, 28, 28, 0.95);
+  border-radius: var(--br-5xs);
+  border: 1px solid rgba(80, 255, 213, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  backdrop-filter: blur(50px);
+  transition: all 0.3s ease;
+  box-shadow: 0 0 10px rgba(80, 255, 213, 0.2), 0 0 20px rgba(80, 255, 213, 0.1),
+    inset 0 0 10px rgba(80, 255, 213, 0.1);
+}
+
+.rectangleParent::before,
+.rectangleGroup::before {
+  content: '';
+  position: absolute;
+  inset: -4px;
+  background: rgba(0, 13, 10, 0.573);
+  border-radius: var(--br-5xs);
+  filter: blur(8px);
+  opacity: 1;
+  z-index: -1;
+}
+
+.rectangleParent:hover::before,
+.rectangleGroup:hover::before {
+  opacity: 1;
+  background: rgba(2, 25, 19, 0.25);
+  filter: blur(12px);
+}
+
+.rectangleParent:hover,
+.rectangleGroup:hover {
+  border-color: rgba(80, 255, 213, 0.4);
+  box-shadow: 0 0 15px rgba(80, 255, 213, 0.3), 0 0 30px rgba(80, 255, 213, 0.2),
+    inset 0 0 15px rgba(80, 255, 213, 0.2);
+}
+
+.iconParktelegram,
+.frameInner {
+  height: 24.4px;
+  width: 24.4px;
+  position: relative;
+  z-index: 1;
+  filter: brightness(0) invert(1);
+}
+
+.frameInner {
+  height: 18px;
+}
+
+.connect {
+  text-decoration: none;
+  position: relative;
+  font-size: var(--font-size-xs);
+  line-height: 16px;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: var(--font-ibm-plex-mono);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  min-width: 52px;
+}
+.connectWrapper {
+  cursor: pointer;
+  border: none;
+  padding: var(--padding-3xs) 37px var(--padding-3xs) 38px;
+  background-color: var(--color-white);
+  backdrop-filter: blur(50px);
+  border-radius: var(--br-xl);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+.connectWrapper:hover {
+  background-color: #ffd700;
+  transform: scale(1.05);
+}
+.frameParent {
+  width: 100%;
+  max-width: 2000px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+.screenshot20250124At940 {
+  position: absolute;
+  top: 20px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: var(--br-4xl) var(--br-4xl) 0px 0px;
+  object-fit: cover;
+  z-index: 1;
+}
+
+@media screen and (min-width: 1500px) {
+  .screenshot20250124At940 {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: var(--br-4xl) var(--br-4xl) 0px 0px;
+    object-fit: cover;
+    z-index: 1;
+  }
+}
+
+.rectangleDiv {
+  height: 48.7px;
+  width: 278.5px;
+  position: relative;
+  border-radius: var(--br-13xl);
+  background-color: var(--color-white);
+  display: none;
+  z-index: 0;
+}
+
+.bogdanoff {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (min-width: 1270px) {
+  .bogdanoff {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: start;
+  }
+}
+
+.simulator {
+  position: absolute;
+  top: 50px;
+  right: 40px;
+  background-color: white;
+  padding-top: 4px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 40px;
+  letter-spacing: 0.76em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: -1;
+}
+
+@media screen and (max-width: 750px) {
+  .simulator {
+    position: absolute;
+    top: 35px;
+    right: 20px;
+    background-color: white;
+    padding-top: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 40px;
+    letter-spacing: 0.76em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: -1;
+  }
+}
+
+@media screen and (min-width: 1270px) {
+  .simulator {
+    position: absolute;
+    top: 85px;
+    left: 250px;
+    background-color: white;
+    width: 190px;
+    padding-top: 4px;
+    border-radius: 40px;
+    letter-spacing: 0.76em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: -1;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .bogdanoffLogoHighRes1 {
+    height: 50px;
+    width: 270px;
+    top: -56.3px;
+    left: 0.8px;
+  }
+}
+
+@media screen and (min-width: 750px) {
+  .bogdanoffLogoHighRes1 {
+    height: 70px;
+    width: 370px;
+    top: -70.3px;
+    left: 8px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .bogdanoffLogoHighRes1 {
+    height: 110px;
+    width: 500px;
+    top: -70.3px;
+    left: 8px;
+  }
+}
+.rectangleContainer {
+  border-radius: var(--br-13xl);
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  z-index: 2;
+}
+
+.image1Parent {
+  position: relative;
+  width: 100%;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+  font-family: var(--font-ibm-plex-mono);
+}
+
+.screenshot20250124At940Parent {
+  width: 100%;
+  height: 100%;
+  max-width: 2000px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.landingPage {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  background-color: var(--color-gray-800);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-36xl) var(--padding-11xl) 104px;
+  box-sizing: border-box;
+}
+
+.hoverEffect {
+  transition: transform 0.2s ease-in-out, opacity 0.2s ease-in-out;
+}
+
+.hoverEffect:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
+
+.buttonHover {
+  transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.buttonHover:hover {
+  transform: scale(1.05);
+  background-color: #ffd700;
+  color: black;
+}
+
+.simulatorHover {
+  transition: color 0.2s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.simulatorHover:hover {
+  color: #4a90e2;
+  transform: scale(1.05);
+}
+
+@media screen and (min-width: 1280px) {
+  .image1Parent {
+    padding-top: 180px;
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .simulatorTitle {
+    padding-left: var(--padding-110xl);
+    box-sizing: border-box;
+  }
+
+  .image1Parent {
+    padding-top: 118px;
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .landingPage {
+    gap: var(--gap-mini);
+  }
+}
+@media screen and (max-width: 450px) {
+  .simulatorTitle {
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
+  }
+
+  .image1Parent {
+    padding-top: 70px;
+    box-sizing: border-box;
+  }
+}

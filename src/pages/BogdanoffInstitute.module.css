@@ -1,0 +1,248 @@
+.vectorIcon {
+  width: 6px;
+  height: 11.3px;
+  position: relative;
+}
+.vectorWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs-3) 0px 0px;
+}
+.backToMain {
+  position: relative;
+  font-size: var(--font-size-3xs);
+  line-height: 16px;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: var(--font-ibm-plex-mono);
+  color: var(--color-black);
+  text-align: left;
+}
+.frameGroup {
+  backdrop-filter: blur(50px);
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-2xl) var(--padding-3xs)
+    var(--padding-3xl);
+  gap: var(--gap-8xs);
+}
+.frameContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  cursor: pointer;
+}
+.frameWrapper {
+  cursor: pointer;
+  border: none;
+  padding: 0;
+  background-color: transparent;
+  width: 415.7px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameChild {
+  height: 30.5px;
+  width: 180.7px;
+  position: relative;
+  border-radius: var(--br-13xl);
+  background-color: var(--color-white);
+  display: none;
+  z-index: 0;
+}
+.simulator {
+  text-decoration: none;
+  height: 15.7px;
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-3xs);
+  letter-spacing: 0.76em;
+  line-height: 15.7px;
+  font-weight: 700;
+  font-family: var(--font-ibm-plex-mono);
+  color: var(--color-black);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+.bogdanoffLogoHighRes1 {
+  height: 63.3px;
+  width: 337px;
+  position: absolute;
+  margin: 0 !important;
+  top: -47.9px;
+  left: -168.5px;
+  object-fit: cover;
+  z-index: 2;
+}
+.rectangleParent {
+  cursor: pointer;
+  border: none;
+  padding: var(--padding-5xs-4) var(--padding-sm);
+  background-color: var(--color-white);
+  align-self: stretch;
+  border-radius: var(--br-13xl);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+}
+.rectangleParent:hover {
+  background-color: var(--color-gainsboro);
+}
+.frameDiv {
+  width: 180.7px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xl-2) 0px 0px;
+  box-sizing: border-box;
+}
+.frameItem {
+  height: 36.7px;
+  width: 36.7px;
+  position: relative;
+  backdrop-filter: blur(50px);
+  border-radius: var(--br-5xs);
+  background-color: var(--color-white);
+  display: none;
+}
+.iconParktelegram {
+  height: 24.4px;
+  width: 24.4px;
+  position: relative;
+  border-radius: var(--br-mini);
+  z-index: 1;
+}
+.rectangleGroup {
+  backdrop-filter: blur(50px);
+  border-radius: var(--br-5xs);
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-6xs-3) var(--padding-7xs) var(--padding-7xs);
+}
+.frameInner {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  left: 0%;
+  backdrop-filter: blur(50px);
+  border-radius: var(--br-5xs);
+  background-color: var(--color-white);
+  display: none;
+}
+.groupIcon {
+  position: absolute;
+  height: 66.49%;
+  width: 66.49%;
+  top: 17.17%;
+  right: 16.08%;
+  bottom: 16.35%;
+  left: 17.44%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 1;
+}
+.rectangleContainer {
+  height: 36.7px;
+  width: 36.7px;
+  position: relative;
+  backdrop-filter: blur(50px);
+  border-radius: var(--br-5xs);
+  background-color: var(--color-white);
+}
+.x2d680126Wrapper {
+  cursor: pointer;
+  border: none;
+  padding: var(--padding-3xs) var(--padding-5xl);
+  background-color: var(--color-white);
+  backdrop-filter: blur(50px);
+  border-radius: var(--br-xl);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.x2d680126Wrapper:hover {
+  background-color: var(--color-gainsboro);
+}
+.frameParent1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-4xl-3);
+}
+.frameParent {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.bogdanoffInstituteInner {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px var(--padding-12xl) 0px var(--padding-13xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.bogdaoffInstituteMainsectionWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px var(--padding-sm) 0px var(--padding-smi);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.bogdanoffInstitute {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-gray-800);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-54xl-7) var(--padding-31xl) 61px;
+  box-sizing: border-box;
+  gap: var(--gap-11xl-3);
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+@media screen and (max-width: 750px) {
+  .bogdanoffInstitute {
+    gap: var(--gap-mini);
+    padding-left: var(--padding-6xl);
+    padding-right: var(--padding-6xl);
+    box-sizing: border-box;
+  }
+}

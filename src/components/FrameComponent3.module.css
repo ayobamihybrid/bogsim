@@ -1,0 +1,450 @@
+.frameChild {
+  width: 294px;
+  height: 272px;
+  position: relative;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.3);
+  border-radius: var(--br-3xs);
+  background: linear-gradient(130.56deg, #f5ff85, #f1ff54);
+  display: none;
+}
+.allSystems {
+  margin: 0;
+}
+.allSystemsOnlineContainer {
+  position: absolute;
+  top: 6px;
+  left: 0px;
+  line-height: 25px;
+  z-index: 3;
+}
+.frameItem {
+  position: absolute;
+  top: 0px;
+  left: 80px;
+  border-radius: 50%;
+  background-color: var(--color-limegreen);
+  width: 9px;
+  height: 9px;
+  z-index: 4;
+}
+.allSystemsOnlineParent {
+  width: 93px;
+  height: 56px;
+  position: relative;
+}
+.bogdanoffSimulationReadyContainer {
+  position: relative;
+  line-height: 25px;
+  z-index: 3;
+}
+.frameGroup {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.frameContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px var(--padding-10xs);
+}
+.frameInner {
+  height: 40px;
+  width: 240px;
+  position: relative;
+  box-shadow: 0px 1px 10px rgba(75, 75, 75, 0.5);
+  background-color: var(--color-gray-800);
+  display: none;
+}
+.runAgent {
+  position: relative;
+  font-size: var(--font-size-lg);
+  letter-spacing: -0.01em;
+  line-height: 25px;
+  font-family: var(--font-ibm-plex-mono);
+  color: var(--color-white);
+  text-align: center;
+  z-index: 1;
+}
+.rectangleGroup {
+  cursor: pointer;
+  border: none;
+  padding: var(--padding-5xs) var(--padding-50xl) var(--padding-6xs);
+  background-color: var(--color-gray-800);
+  align-self: stretch;
+  box-shadow: 0px 1px 10px rgba(75, 75, 75, 0.5);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 3;
+}
+.rectangleGroup:hover {
+  background-color: var(--color-darkslategray);
+}
+.rectangleParent {
+  align-self: stretch;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.3);
+  border-radius: var(--br-3xs);
+  background: linear-gradient(130.56deg, #f5ff85, #f1ff54);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xl) var(--padding-8xl) var(--padding-lg);
+  gap: var(--gap-45xl);
+  z-index: 2;
+}
+.frameWrapper {
+  width: 294px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0px 0px var(--padding-6xs);
+  box-sizing: border-box;
+}
+.timeline {
+  position: relative;
+  line-height: 25px;
+  display: inline-block;
+  min-width: 69px;
+  z-index: 3;
+}
+.timelineWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0px var(--padding-46xl);
+  text-align: center;
+  color: var(--color-white);
+}
+.rectangleDiv {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.3);
+  border-radius: var(--br-3xs);
+  background: linear-gradient(135deg, #fff, rgba(216, 250, 255, 0.7));
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+.frameChild1 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  box-shadow: 0px 1px 10px rgba(75, 75, 75, 0.5);
+  background-color: var(--color-gray-800);
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.rectangleWrapper {
+  position: absolute;
+  top: 214px;
+  left: 98px;
+  box-shadow: 0px 1px 10px rgba(75, 75, 75, 0.5);
+  background-color: var(--color-gray-800);
+  width: 168px;
+  height: 40px;
+  z-index: 4;
+}
+.rectangleContainer {
+  width: 100%;
+  height: 272px;
+  position: absolute;
+  margin: 0 !important;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+}
+.studyTheBogdanoffTimelineParent {
+  width: 294px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xl) var(--padding-11xl) 0px;
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-155xl);
+}
+.frameChild2 {
+  width: 294px;
+  height: 272px;
+  position: relative;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.3);
+  border-radius: var(--br-3xs);
+  background: linear-gradient(135deg, #fff, rgba(216, 250, 255, 0.7));
+  display: none;
+}
+.frameChild3 {
+  height: 40px;
+  width: 168px;
+  position: relative;
+  box-shadow: 0px 1px 10px rgba(75, 75, 75, 0.5);
+  background-color: var(--color-gray-800);
+  display: none;
+}
+.memeeng {
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-sm);
+  line-height: 25px;
+  font-family: var(--font-ibm-plex-mono);
+  color: var(--color-white);
+  text-align: center;
+  display: inline-block;
+  min-width: 69px;
+  z-index: 4;
+}
+.rectangleParent2 {
+  box-shadow: 0px 1px 10px rgba(75, 75, 75, 0.5);
+  background-color: var(--color-gray-800);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-6xs) var(--padding-30xl) var(--padding-5xs)
+    var(--padding-31xl);
+  z-index: 3;
+}
+.frameButton {
+  cursor: pointer;
+  border: none;
+  padding: 0;
+  background-color: transparent;
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.rectangleParent1 {
+  flex: 0.8027;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.3);
+  border-radius: var(--br-3xs);
+  background: linear-gradient(135deg, #fff, rgba(216, 250, 255, 0.7));
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xl) var(--padding-9xl) var(--padding-lg)
+    var(--padding-11xl);
+  gap: var(--gap-115xl);
+  z-index: 2;
+}
+.frameChild4 {
+  height: 67px;
+  width: 294px;
+  position: relative;
+  box-shadow: 0px 0px 20px rgba(67, 4, 0, 0.3);
+  border-radius: var(--br-mini);
+  background: linear-gradient(130.56deg, #f5ff85, #f1ff54);
+  display: none;
+}
+.bogdanoffSimulation1 {
+  margin: 0;
+  letter-spacing: -0.01em;
+}
+.ready1 {
+  margin: 0;
+  font-size: var(--font-size-sm);
+}
+.bogdanoffSimulationReadyContainer1 {
+  position: relative;
+  line-height: 17px;
+  z-index: 3;
+}
+.bogdanoffSimulationReadyWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0px 0px var(--padding-10xs);
+}
+.run {
+  position: relative;
+  font-size: var(--font-size-lg);
+  line-height: 25px;
+  font-family: var(--font-ibm-plex-mono);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  min-width: 34px;
+}
+.runWrapper {
+  cursor: pointer;
+  border: none;
+  padding: var(--padding-5xs-5) var(--padding-11xl);
+  background-color: var(--color-gray-800);
+  box-shadow: 0px 1px 10px rgba(75, 75, 75, 0.5);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 3;
+}
+.runWrapper:hover {
+  background-color: var(--color-darkslategray);
+}
+.rectangleParent3 {
+  align-self: stretch;
+  box-shadow: 0px 0px 20px rgba(67, 4, 0, 0.3);
+  border-radius: var(--br-mini);
+  background: linear-gradient(130.56deg, #f5ff85, #f1ff54);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-sm) var(--padding-lg) var(--padding-smi);
+  gap: var(--gap-15xl);
+  z-index: 2;
+}
+.frameChild5 {
+  width: 294px;
+  height: 272px;
+  position: relative;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.3);
+  border-radius: var(--br-mini);
+  background: linear-gradient(135deg, #fff, rgba(216, 250, 255, 0.7));
+  display: none;
+}
+.frameChild6 {
+  height: 40px;
+  width: 201.2px;
+  position: relative;
+  box-shadow: 0px 1px 10px rgba(75, 75, 75, 0.5);
+  background-color: var(--color-gray-800);
+  display: none;
+}
+.enterTheCouncil {
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-sm);
+  line-height: 25px;
+  font-family: var(--font-ibm-plex-mono);
+  color: var(--color-white);
+  text-align: center;
+  z-index: 1;
+}
+.groupDiv {
+  flex: 1;
+  box-shadow: 0px 1px 10px rgba(75, 75, 75, 0.5);
+  background-color: var(--color-gray-800);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-6xs) var(--padding-9xl) var(--padding-5xs);
+  z-index: 3;
+}
+.frameWrapper1 {
+  cursor: pointer;
+  border: none;
+  padding: 0px var(--padding-12xs) 0px var(--padding-16xl);
+  background-color: transparent;
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.rectangleParent4 {
+  align-self: stretch;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.3);
+  border-radius: var(--br-mini);
+  background: linear-gradient(135deg, #fff, rgba(216, 250, 255, 0.7));
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xl) var(--padding-8xl) var(--padding-lg)
+    var(--padding-11xl);
+  gap: var(--gap-115xl);
+  z-index: 2;
+  font-size: var(--font-size-sm);
+}
+.frameParent2 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-16xl);
+  font-size: var(--font-size-2xs);
+}
+.frameParent1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-9xl);
+}
+.frameDiv {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0px 0px var(--padding-6xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.frameParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-9xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-black);
+  font-family: var(--font-ibm-plex-mono);
+}
+
+@media screen and (max-width: 750px) {
+  .frameParent1 {
+    flex-wrap: wrap;
+  }
+
+  .frameDiv {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .rectangleParent {
+    gap: var(--gap-13xl);
+  }
+
+  .studyTheBogdanoffTimelineParent {
+    gap: var(--gap-68xl);
+  }
+
+  .rectangleParent1 {
+    gap: var(--gap-48xl);
+    flex: 1;
+  }
+
+  .rectangleParent3 {
+    gap: var(--gap-mid);
+    flex-wrap: wrap;
+  }
+
+  .rectangleParent4 {
+    gap: var(--gap-48xl);
+  }
+
+  .frameParent2 {
+    gap: var(--gap-mid);
+  }
+}

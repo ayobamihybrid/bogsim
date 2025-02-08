@@ -1,0 +1,15 @@
+.component6Wrapper {
+  width: 1311px;
+  height: 210px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0px var(--padding-12xs) 0px 0px;
+  box-sizing: border-box;
+  z-index: 2;
+  text-align: right;
+  font-size: var(--font-size-xl);
+  color: var(--color-gray-400);
+  font-family: var(--font-vt323);
+}

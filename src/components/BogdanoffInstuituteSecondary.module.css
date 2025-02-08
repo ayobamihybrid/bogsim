@@ -1,0 +1,311 @@
+.academic {
+  margin: 0;
+  width: 114px;
+  height: 5px;
+  position: relative;
+  font-size: inherit;
+  line-height: 5px;
+  font-weight: 400;
+  font-family: inherit;
+  white-space: pre-wrap;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.programsResearch {
+  margin: 0;
+  width: 154px;
+  height: 5px;
+  position: relative;
+  font-size: inherit;
+  line-height: 5px;
+  font-weight: 400;
+  font-family: inherit;
+  color: var(--color-white);
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.academicParent {
+  width: 153px;
+  height: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.frameChild {
+  height: 116px;
+  width: 624px;
+  position: absolute;
+  margin: 0 !important;
+  right: -333px;
+  bottom: -60px;
+  filter: blur(50px);
+  border-radius: var(--br-mini);
+  background: linear-gradient(180deg, #468d8d, #e5e580);
+  z-index: 0;
+}
+.frameItem {
+  height: 116px;
+  width: 624px;
+  position: absolute;
+  margin: 0 !important;
+  right: -333px;
+  bottom: -60px;
+  border-radius: var(--br-mini);
+  background: linear-gradient(135deg, #fff, rgba(216, 250, 255, 0.7));
+  z-index: 1;
+}
+.zeQuantumCouncil {
+  height: 36px;
+  width: 262px;
+  position: relative;
+  line-height: 36px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.rectangleParent {
+  width: 261px;
+  height: 36px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+}
+.learnMore {
+  margin-top: -18px;
+  text-decoration: none;
+  width: 72px;
+  position: relative;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.fellowshipLearnMore {
+  width: 72px;
+  height: 18px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 0px 0px;
+  box-sizing: border-box;
+  font-size: var(--font-size-xs);
+  color: var(--color-dimgray);
+}
+.frameParent {
+  height: 54px;
+  width: 261px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameInner {
+  height: 116px;
+  width: 624px;
+  position: absolute;
+  margin: 0 !important;
+  right: -324px;
+  bottom: -60px;
+  filter: blur(50px);
+  border-radius: var(--br-mini);
+  background: linear-gradient(180deg, #468d8d, #e5e580);
+  z-index: 0;
+}
+.rectangleDiv {
+  height: 116px;
+  width: 624px;
+  position: absolute;
+  margin: 0 !important;
+  right: -324px;
+  bottom: -60px;
+  border-radius: var(--br-mini);
+  background: linear-gradient(135deg, #fff, rgba(216, 250, 255, 0.7));
+  z-index: 1;
+}
+.selectedResearchPublications {
+  height: 36px;
+  width: 271px;
+  position: relative;
+  line-height: 36px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.rectangleGroup {
+  width: 270px;
+  height: 36px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+}
+.learnMore1 {
+  margin-top: -18px;
+  text-decoration: none;
+  width: 72px;
+  position: relative;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.learnMoreWrapper {
+  width: 72px;
+  height: 18px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 0px 0px;
+  box-sizing: border-box;
+  font-size: var(--font-size-xs);
+  color: var(--color-dimgray);
+}
+.frameGroup {
+  height: 54px;
+  width: 270px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.fellowshipContent {
+  height: 54px;
+  width: 956px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-406xl);
+}
+.programsContent {
+  width: 1280px;
+  height: 54px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0px var(--padding-305xl) 0px 0px;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--font-size-mini);
+  color: var(--color-black);
+  font-family: var(--font-ibm-plex-mono);
+}
+.frameContainer {
+  width: 1280px;
+  height: 124px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-31xl);
+}
+.clickHereTo {
+  height: 17px;
+  width: 167px;
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.clickHereToExpandWrapper {
+  height: 17px;
+  width: 166px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameWrapper {
+  height: 17px;
+  width: 166px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.groupDiv {
+  height: 17px;
+  width: 166px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.groupIcon {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 17px;
+  height: 17px;
+  object-fit: cover;
+}
+.frameWrapper1 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 17px;
+  height: 17px;
+}
+.frameWrapper2 {
+  width: 17px;
+  position: relative;
+  height: 17px;
+}
+.frameParent1 {
+  height: 17px;
+  width: 190px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-6xs);
+}
+.component6Inner {
+  width: 722px;
+  height: 17px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 0px 0px var(--padding-513xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-gray-300);
+  font-family: var(--font-ibm-plex-mono);
+}
+.component6 {
+  height: 210px;
+  width: 1310px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) 0px var(--padding-11xs) var(--padding-11xl);
+  box-sizing: border-box;
+  gap: var(--gap-45xl);
+  text-align: right;
+  font-size: var(--font-size-xl);
+  color: var(--color-gray-400);
+  font-family: var(--font-vt323);
+}

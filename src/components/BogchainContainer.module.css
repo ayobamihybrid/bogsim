@@ -1,0 +1,178 @@
+.container {
+  width: 100%;
+  padding: 0.5rem;
+  position: relative;
+  z-index: 2;
+  box-sizing: border-box;
+}
+
+.gridContainer {
+  width: 100%;
+  max-width: 2000px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 0 0.5rem;
+  box-sizing: border-box;
+}
+
+.card {
+  width: 100%;
+  background: linear-gradient(
+    135deg,
+    #fff,
+    rgba(237, 253, 255, 0.86) 47.17%,
+    rgba(216, 250, 255, 0.7)
+  );
+  border-radius: 0.775rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1rem;
+  min-height: 180px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-sizing: border-box;
+}
+
+.cardActive {
+  background: linear-gradient(90deg, #f5ff85, #f1ff54);
+}
+
+.cardContent {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.title {
+  font-family: var(--font-ibm-plex-mono);
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.subtitle {
+  font-family: var(--font-ibm-plex-mono);
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: bold;
+}
+
+.button {
+  align-self: flex-end;
+  background-color: black;
+  color: white;
+  font-family: var(--font-ibm-plex-mono);
+  font-size: 0.875rem;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  transition: all 0.3s ease;
+  border: none;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.button:hover {
+  background-color: #f1ff54;
+  color: black;
+}
+
+.statusCard {
+  width: 100%;
+  max-height: 60px;
+  background: linear-gradient(90deg, #f5ff85, #f1ff54);
+  border-radius: 0.77rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  box-sizing: border-box;
+}
+
+.statusText {
+  font-family: var(--font-ibm-plex-mono);
+  font-size: 0.75rem;
+}
+
+.statusReady {
+  font-family: var(--font-ibm-plex-mono);
+  font-size: 0.875rem;
+  font-weight: bold;
+}
+
+.runButton {
+  background-color: black;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  white-space: nowrap;
+}
+
+.runButton:hover {
+  background-color: #f1ff54;
+  color: black;
+}
+
+/* Media Queries */
+
+@media screen and (min-width: 1270px) {
+  .statusContainer {
+    margin-top: -77px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    padding: 1rem;
+  }
+
+  .gridContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    padding: 0 1rem;
+  }
+
+  .card {
+    padding: 1.5rem;
+    min-height: 200px;
+  }
+
+  .memeticContainer {
+    grid-column: span 2;
+  }
+
+  .statusContainer {
+    grid-column: span 2;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .memeticContainer {
+    grid-column: span 1;
+  }
+
+  .statusContainer {
+    grid-column: span 1;
+  }
+
+  .button {
+    padding: 0.5rem 1.5rem;
+  }
+}
+
+@media screen and (min-width: 1268px) {
+  .gridContainer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem;
+    padding: 0 1rem;
+  }
+}

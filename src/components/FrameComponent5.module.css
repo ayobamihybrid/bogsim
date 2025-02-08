@@ -1,0 +1,213 @@
+.background {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  filter: blur(100px);
+  backdrop-filter: blur(40px);
+  border-radius: var(--br-mini);
+  background: linear-gradient(
+    180deg,
+    rgba(70, 141, 141, 0.1),
+    rgba(229, 229, 128, 0.1)
+  );
+  border: 1px solid var(--color-cadetblue);
+  box-sizing: border-box;
+}
+.frameChild {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  box-shadow: 0px 0px 20px rgba(0, 255, 224, 0.25);
+  background-color: var(--color-black);
+  border: 1px solid var(--color-cadetblue);
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  display: none;
+  z-index: 1;
+}
+.frameItem {
+  position: absolute;
+  top: 5px;
+  left: 2px;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  z-index: 2;
+}
+.frameInner {
+  position: absolute;
+  top: 4px;
+  left: 3px;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  z-index: 3;
+}
+.rectangleParent {
+  height: 546px;
+  flex: 1;
+  position: relative;
+  box-shadow: 0px 0px 20px rgba(0, 255, 224, 0.25);
+  background-color: var(--color-black);
+  border: 1px solid var(--color-cadetblue);
+  box-sizing: border-box;
+  min-width: 540px;
+  max-width: 100%;
+  z-index: 1;
+}
+.rectangleDiv {
+  width: 424px;
+  height: 546px;
+  position: relative;
+  box-shadow: 0px 0px 20px rgba(103, 232, 249, 0.25);
+  border-radius: var(--br-mini);
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.8),
+    rgba(216, 250, 255, 0.56)
+  );
+  display: none;
+  max-width: 100%;
+}
+.welcomeToZe {
+  margin-block-start: 0;
+  margin-block-end: 20px;
+}
+.ourGroundbreakingResearch {
+  margin: 0;
+}
+.welcomeToZeContainer {
+  height: 397px;
+  position: relative;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.frameChild1 {
+  height: 40px;
+  width: 325px;
+  position: relative;
+  box-shadow: 0px 1px 10px rgba(75, 75, 75, 0.5);
+  background-color: var(--color-gray-800);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.buyBogdanoff {
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 25px;
+  font-family: var(--font-ibm-plex-mono);
+  color: var(--color-white);
+  text-align: center;
+  z-index: 3;
+}
+.rectangleContainer {
+  cursor: pointer;
+  border: 1px solid var(--color-black);
+  padding: var(--padding-8xs) var(--padding-72xl) var(--padding-7xs)
+    var(--padding-77xl);
+  background-color: var(--color-gray-800);
+  align-self: stretch;
+  height: 40px;
+  box-shadow: 0px 1px 10px rgba(75, 75, 75, 0.5);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  max-width: 100%;
+  z-index: 2;
+}
+.rectangleContainer:hover {
+  background-color: var(--color-darkslategray);
+  border: 1px solid var(--color-darkslategray);
+  box-sizing: border-box;
+}
+.rectangleGroup {
+  width: 424px;
+  box-shadow: 0px 0px 20px rgba(103, 232, 249, 0.25);
+  border-radius: var(--br-mini);
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.8),
+    rgba(216, 250, 255, 0.56)
+  );
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px var(--padding-30xl) var(--padding-27xl) var(--padding-31xl);
+  box-sizing: border-box;
+  gap: var(--gap-44xl);
+  max-width: 100%;
+  z-index: 1;
+}
+.backgroundParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-16xl) var(--padding-11xl) var(--padding-15xl)
+    var(--padding-13xl);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-4xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--color-black);
+  font-family: var(--font-source-sans-pro);
+}
+
+@media screen and (max-width: 1200px) {
+  .rectangleGroup {
+    flex: 1;
+  }
+
+  .backgroundParent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .rectangleParent {
+    min-width: 100%;
+  }
+
+  .rectangleGroup {
+    padding-bottom: var(--padding-11xl);
+    box-sizing: border-box;
+    min-width: 100%;
+  }
+
+  .backgroundParent {
+    padding-top: var(--padding-4xl);
+    padding-bottom: var(--padding-3xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .rectangleContainer {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+
+  .rectangleGroup {
+    gap: var(--gap-12xl);
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

@@ -1,0 +1,82 @@
+.frameChild {
+  height: 75px;
+  width: 75px;
+  position: relative;
+  backdrop-filter: blur(50px);
+  border-radius: var(--br-mini);
+  background: linear-gradient(
+    180deg,
+    rgba(143, 143, 143, 0.5),
+    rgba(0, 0, 0, 0.3)
+  );
+  border: 1px solid var(--color-cadetblue);
+  box-sizing: border-box;
+  display: none;
+}
+.iconParktelegram {
+  height: 50px;
+  width: 50px;
+  position: relative;
+  z-index: 1;
+}
+.rectangleParent {
+  align-self: stretch;
+  backdrop-filter: blur(50px);
+  border-radius: var(--br-mini);
+  background: linear-gradient(
+    180deg,
+    rgba(143, 143, 143, 0.5),
+    rgba(0, 0, 0, 0.3)
+  );
+  border: 1px solid var(--color-cadetblue);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-2xs) var(--padding-xs) var(--padding-3xs)
+    var(--padding-smi);
+}
+.frameInner {
+  height: 38px;
+  width: 38px;
+  position: relative;
+  z-index: 1;
+}
+.rectangleGroup {
+  align-self: stretch;
+  backdrop-filter: blur(50px);
+  border-radius: var(--br-mini);
+  background: linear-gradient(
+    180deg,
+    rgba(143, 143, 143, 0.5),
+    rgba(0, 0, 0, 0.3)
+  );
+  border: 1px solid var(--color-cadetblue);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-mid) var(--padding-lg) var(--padding-base)
+    var(--padding-lgi);
+}
+.frameGroup {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-31xl);
+}
+.groupIcon {
+  height: 75px;
+  width: 75px;
+  position: relative;
+}
+.frameParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}

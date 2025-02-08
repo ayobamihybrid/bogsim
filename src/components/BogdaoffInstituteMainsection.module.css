@@ -1,0 +1,153 @@
+.clickHereTo {
+  height: 17px;
+  width: 167px;
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.clickHereToExpandWrapper {
+  height: 17px;
+  width: 166px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameWrapper {
+  height: 17px;
+  width: 166px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameContainer {
+  height: 17px;
+  width: 166px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameChild {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 17px;
+  height: 17px;
+  object-fit: cover;
+}
+.groupDiv {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 17px;
+  height: 17px;
+}
+.frameWrapper1 {
+  width: 17px;
+  position: relative;
+  height: 17px;
+}
+.frameParent {
+  height: 17px;
+  width: 190px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-6xs);
+}
+.bogdaoffInstituteMainsectionInner {
+  width: 751px;
+  height: 17px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0px var(--padding-542xl) 0px 0px;
+  box-sizing: border-box;
+  z-index: 3;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-gray-300);
+  font-family: var(--font-ibm-plex-mono);
+}
+.clickHereTo1 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  letter-spacing: -0.01em;
+  line-height: 17px;
+}
+.clickHereToExpandContainer {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 166px;
+  height: 17px;
+}
+.frameWrapper2 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 166px;
+  height: 17px;
+}
+.frameWrapper3 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 166px;
+  height: 17px;
+}
+.frameItem {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 17px;
+  height: 17px;
+  object-fit: cover;
+}
+.frameWrapper4 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 17px;
+  height: 17px;
+}
+.frameWrapper5 {
+  position: absolute;
+  top: 0px;
+  left: 173px;
+  width: 17px;
+  height: 17px;
+}
+.frameGroup {
+  width: 190px;
+  position: relative;
+  height: 17px;
+  display: none;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-gray-300);
+  font-family: var(--font-ibm-plex-mono);
+}
+.bogdaoffInstituteMainsection {
+  height: 1052px;
+  width: 1313px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0px 0px var(--padding-600xl);
+  box-sizing: border-box;
+  gap: var(--gap-2xl-5);
+  text-align: right;
+  font-size: var(--font-size-xl);
+  color: var(--color-gray-400);
+  font-family: var(--font-vt323);
+}

@@ -1,0 +1,148 @@
+.screenshot20250124At940 {
+  align-self: stretch;
+  position: relative;
+  border-radius: var(--br-4xl) var(--br-4xl) 0px 0px;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.image1 {
+  width: 1370px;
+  height: 771px;
+  position: relative;
+  border-radius: var(--br-xl);
+  display: none;
+  max-width: 100%;
+}
+.frameChild {
+  height: 57.3px;
+  width: 338.8px;
+  position: relative;
+  border-radius: var(--br-13xl);
+  background-color: var(--color-white);
+  display: none;
+  max-width: 100%;
+  z-index: 0;
+}
+.simulator {
+  height: 29.4px;
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.76em;
+  line-height: 29.4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+.bogdanoffLogoHighRes1 {
+  height: 118.8px;
+  width: 632.1px;
+  position: absolute;
+  margin: 0 !important;
+  top: -89.7px;
+  left: -316px;
+  object-fit: cover;
+  z-index: 3;
+}
+.rectangleParent {
+  flex: 1;
+  border-radius: var(--br-13xl);
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-sm) 26px 13.9px;
+  box-sizing: border-box;
+  position: relative;
+  max-width: 100%;
+  z-index: 2;
+}
+.frameWrapper {
+  width: 970.8px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 316px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.image1Parent {
+  align-self: stretch;
+  border-radius: var(--br-xl);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 328.7px var(--padding-35xl) var(--padding-9xs);
+  box-sizing: border-box;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  max-width: 100%;
+  z-index: 1;
+  margin-top: -869px;
+  text-align: center;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+  font-family: var(--font-ibm-plex-mono);
+}
+.screenshot20250124At940Parent {
+  align-self: stretch;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.landingPage {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-gray-800);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-30xl) var(--padding-15xl) 0px 36px;
+  box-sizing: border-box;
+  gap: var(--gap-12xl);
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+@media screen and (max-width: 1200px) {
+  .image1Parent {
+    padding-left: var(--padding-8xl);
+    padding-right: var(--padding-8xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .frameWrapper {
+    padding-left: var(--padding-139xl);
+    padding-right: var(--padding-139xl);
+    box-sizing: border-box;
+  }
+
+  .image1Parent {
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .frameWrapper {
+    padding-left: var(--padding-60xl);
+    padding-right: var(--padding-60xl);
+    box-sizing: border-box;
+  }
+
+  .landingPage {
+    gap: var(--gap-mini);
+  }
+}
